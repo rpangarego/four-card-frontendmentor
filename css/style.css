@@ -1,0 +1,65 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+ 
+body{
+	font-family: "Poppins";
+	color: hsl(234, 12%, 34%);
+	background: hsl(0, 0%, 98%);
+}
+
+body h1{
+	font-weight: 200 !important;
+}
+
+body h1.sub-title{
+	font-weight: 600 !important;
+}
+
+body p{
+	color: hsl(229, 6%, 66%);
+	margin-bottom: 80px !important;
+}
+
+.card h5.card-title{
+	text-align: left;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.card p.card-text{
+	text-align: left;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.card-body{
+	position: relative;
+}
+
+.card-body img{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+
+.card{
+	box-shadow: 0 8px 15px rgba(0,0,0,0.1) ;
+}
+
+.card.border-top-cyan{
+	border-top: 4px solid hsl(180, 62%, 55%);
+} 
+
+.card.border-top-red{
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+
+.card.border-top-orange{
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card.border-top-blue{
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
